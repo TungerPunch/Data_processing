@@ -17,8 +17,8 @@ while True:
     plt.scatter(rw.x_values[-1], rw.y_values[-1], c='red', edgecolors='none', s=50)
     #Удаление осей
     plt.axis('off')
-    plt.show()
+    #plt.show()
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
         break
-plt.show()
+plt.savefig('random_walk.png')

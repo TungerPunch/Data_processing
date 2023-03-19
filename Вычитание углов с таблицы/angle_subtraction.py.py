@@ -32,7 +32,7 @@ angles1 = []
 angles2 = []
 col_name_1 = 'Угол отклонения пучка\n в прямом ходе'
 col_name_2 = 'Угол отклонения пучка\n в обратном ходе'
-data = pd.read_excel(r"Новая таблица (1).xlsx",
+data = pd.read_excel(r"table.xlsx",
                      index_col='Обороты',
                      )
 
@@ -57,4 +57,4 @@ for i in data.index:
 
 data['Разница'] = difference
 data = pd.DataFrame(data)
-data.to_excel(r'E:\Загрузки\table.xlsx')
+data.to_excel(r'new_table.xlsx')
