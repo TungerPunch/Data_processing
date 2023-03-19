@@ -1,3 +1,3 @@
-# Data_processing
-scripts that I used to process data\\
-В каждой папке свои README.md файлы
+### Data_processing
+Scripts that I used to process data.
+Each folder has its own readme.md file.
