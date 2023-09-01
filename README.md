@@ -1,5 +1,4 @@
 ### Data_processing
 
-Scripts that I used to process data.
-
-Each folder has its own readme.md file.
+Скрипты, которые я использовал для обработки данных
+Каждая директория содержит свой read.me
